@@ -82,7 +82,7 @@ function sslcommerz_link($params) {
 <input type="hidden" name="success_url" value="'.$params['systemurl'].'/modules/gateways/callback/sslcommerz.php" />
 <input type="hidden" name="fail_url" value="'.$params['systemurl'].'/modules/gateways/callback/sslcommerz.php" />
 <input type="hidden" name="cancel_url" value="'.$params['systemurl'].'/modules/gateways/callback/sslcommerz.php" />
-
+<input type="submit" value="Pay With Credit/Debit Card" />
 </form>';
         ///print_r($code);exit;
 	return $code;
